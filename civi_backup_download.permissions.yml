@@ -1,0 +1,5 @@
+download civi backup:
+  title: 'Download CiviCRM database backup'
+  description: 'Download the latest encrypted database backup.'
+  restrict access: true
+

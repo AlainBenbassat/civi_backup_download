@@ -1,0 +1,10 @@
+civi_backup_download.download:
+  path: '/admin/civi-backup/download'
+  defaults:
+    _controller: '\Drupal\civi_backup_download\Controller\BackupDownloadController::download'
+  requirements:
+    _permission: 'download civi backup'
+  options:
+    _admin_route: TRUE
+    no_cache: TRUE
+

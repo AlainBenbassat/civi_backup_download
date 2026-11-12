@@ -1,0 +1,6 @@
+name: 'CiviCRM backup download'
+type: module
+description: 'Lets authorized users download the latest encrypted CiviCRM database backup.'
+core_version_requirement: ^10 || ^11
+package: Custom
+
